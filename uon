@@ -13,8 +13,8 @@ set spoolfile = "+INBOX"
 #set trash = "+Trash"
 #set postponed = "+Drafts"
 
-#mailboxes =INBOX =Sent =Trash =Drafts
-mailboxes =INBOX
+mailboxes =INBOX =Sent =Trash =Drafts
+#mailboxes =INBOX
 
 account-hook $folder "set imap_user=psyrg4@nottingham.ac.uk"
 

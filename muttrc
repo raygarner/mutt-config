@@ -12,7 +12,7 @@ source ~/.mutt/uon
 folder-hook $folder 'source ~/.mutt/uon'
 
 
-set imap_keepalive = 300
+set imap_keepalive = 5
 set mail_check = 60
 
 set sort = reverse-date-received

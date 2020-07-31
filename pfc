@@ -13,8 +13,8 @@ set spoolfile = "+INBOX"
 #set trash = "+INBOX.Trash"
 #set postponed = "+INBOX.Drafts"
 
-#mailboxes =INBOX =INBOX.Sent =INBOX.Trash =INBOX.Drafts =INBOX.Junk =INBOX.Other
-mailboxes =INBOX
+mailboxes =INBOX =INBOX.Sent =INBOX.Trash =INBOX.Drafts =INBOX.Junk =INBOX.Other
+#mailboxes =INBOX
 #set imap_check_subscribed
 
 account-hook $folder "set imap_user=ray@perfectcast.co.uk"
