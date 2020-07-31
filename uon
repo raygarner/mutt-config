@@ -3,7 +3,8 @@ set imap_user=psyrg4@nottingham.ac.uk
 #set folder = "imaps://psyrg4@nottingham.ac.uk@outlook.office365.com:993"
 set folder = "imaps://psyrg4@nottingham.ac.uk@outlook.office365.com"
 
-set smtp_url = "smtp://psyrg4@nottingham.ac.uk@smtp.office365.com:587"
+#set smtp_url = "smtp://psyrg4@nottingham.ac.uk@smtp.office365.com:587"
+set smtp_url = "smtp://psyrg4@nottingham.ac.uk@smtp.office365.com"
 
 set from = "psyrg4@nottingham.ac.uk"
 
@@ -16,3 +17,6 @@ set spoolfile = "+INBOX"
 mailboxes =INBOX
 
 account-hook $folder "set imap_user=psyrg4@nottingham.ac.uk"
+
+source ~/.mutt/colour.muttrc
+

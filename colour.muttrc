@@ -8,6 +8,7 @@
 
 # For new mail:
 color index blue default "~N"
+color index blue default "~O"
 #color index_author brightred black "~N"
 #color index_subject brightcyan black "~N"
 

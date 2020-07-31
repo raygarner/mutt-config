@@ -18,3 +18,5 @@ mailboxes =INBOX
 #set imap_check_subscribed
 
 account-hook $folder "set imap_user=ray@perfectcast.co.uk"
+
+source ~/.mutt/colour.muttrc
