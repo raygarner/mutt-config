@@ -1,0 +1,38 @@
+set realname = "Ray Garner"
+
+#pfc email
+source ~/.mutt/pfc
+folder-hook $folder 'source ~/.mutt/pfc'
+
+#uon email
+source ~/.mutt/uon
+#folder-hook imaps://psyrg@nottingham.ac.uk@outlook.office365.com 'source ~/.mutt/uon'
+folder-hook $folder 'source ~/.mutt/uon'
+
+
+set imap_keepalive = 300
+set mail_check = 60
+
+set sort = reverse-date-received
+
+set mailcap_path 	= ~/.mutt/mailcap
+
+auto_view text/html
+
+set header_cache = ~/.cache/mutt
+set message_cachedir = "~/.cache/mutt"
+
+bind pager j next-line
+bind pager k previous-line
+bind attach,index,pager \CD next-page
+bind attach,index,pager \CU previous-page
+bind pager g top
+bind pager G bottom
+bind attach,index g first-entry
+bind attach,index G last-entry
+bind index l display-message
+bind index,pager h quit
+bind index,pager h exit
+
+macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/pfc<enter><change-folder>!<enter>'
+macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/uon<enter><change-folder>!<enter>'
