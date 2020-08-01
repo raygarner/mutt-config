@@ -1,20 +1,17 @@
 set imap_user=ray@perfectcast.co.uk
 
-#set folder = "imaps://ray@perfectcast.co.uk@mail.perfectcast.co.uk:993"
 set folder = "imaps://ray@perfectcast.co.uk@mail.perfectcast.co.uk"
 
-#set smtp_url = "smtps://ray@perfectcast.co.uk@mail.perfectcast.co.uk:465"
 set smtp_url = "smtps://ray@perfectcast.co.uk@mail.perfectcast.co.uk"
 
 set from = "ray@perfectcast.co.uk"
 
 set spoolfile = "+INBOX"
-#set record = "+INBOX.Sent"
-#set trash = "+INBOX.Trash"
-#set postponed = "+INBOX.Drafts"
+set record = "+INBOX.Sent"
+set trash = "+INBOX.Trash"
+set postponed = "+INBOX.Drafts"
 
 mailboxes =INBOX =INBOX.Sent =INBOX.Trash =INBOX.Drafts =INBOX.Junk =INBOX.Other
-#mailboxes =INBOX
 #set imap_check_subscribed
 
 account-hook $folder "set imap_user=ray@perfectcast.co.uk"

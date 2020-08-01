@@ -8,7 +8,6 @@ folder-hook $folder 'source ~/.mutt/pfc'
 
 #uon email
 source ~/.mutt/uon
-#folder-hook imaps://psyrg@nottingham.ac.uk@outlook.office365.com 'source ~/.mutt/uon'
 folder-hook $folder 'source ~/.mutt/uon'
 
 
@@ -21,7 +20,7 @@ set mailcap_path 	= ~/.mutt/mailcap
 
 auto_view text/html
 
-set header_cache = ~/.cache/mutt
+set header_cache = "~/.cache/mutt"
 set message_cachedir = "~/.cache/mutt"
 
 bind pager j next-line
