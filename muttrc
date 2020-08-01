@@ -36,9 +36,8 @@ bind index l display-message
 bind index,pager h quit
 bind index,pager h exit
 bind index,pager n next-new-then-unread
+bind index "^" imap-fetch-mail
 
 macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/pfc<enter><change-folder>!<enter>'
 macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/uon<enter><change-folder>!<enter>'
 
-
-#color index blue default "~N"
