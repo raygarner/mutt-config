@@ -39,4 +39,6 @@ bind index "^" imap-fetch-mail
 
 macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/pfc<enter><change-folder>!<enter>'
 macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/uon<enter><change-folder>!<enter>'
+#macro attach 'V' "<pipe-entry>iconv -c --to-code=UTF8 > ~/.cache/mutt/mail.html<enter><shell-escape>brave ~/.cache/mutt/mail.html<enter>"
+macro attach 'V' "<pipe-entry>iconv -c --to-code=UTF8 > ~/.cache/mail.html<enter><shell-escape>brave ~/.cache/mail.html<enter>"
 
