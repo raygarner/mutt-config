@@ -10,9 +10,9 @@ folder-hook $folder 'source ~/.mutt/pfc'
 source ~/.mutt/uon
 folder-hook $folder 'source ~/.mutt/uon'
 
-#set mail_check = 60
+set mail_check = 60
 #unset imap_passive
-#set imap_keepalive = 300
+set imap_keepalive = 60
 
 set sort = reverse-date-received
 
