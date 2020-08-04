@@ -4,6 +4,8 @@ set folder = "imaps://ray@perfectcast.co.uk@mail.perfectcast.co.uk"
 
 set smtp_url = "smtps://ray@perfectcast.co.uk@mail.perfectcast.co.uk"
 
+set imap_pass=`pass ray@perfectcast.co.uk`
+
 set from = "ray@perfectcast.co.uk"
 
 set spoolfile = "+INBOX"
