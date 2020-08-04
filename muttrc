@@ -32,8 +32,8 @@ bind pager G bottom
 bind attach,index g first-entry
 bind attach,index G last-entry
 bind index l display-message
-bind index,pager h quit
-bind index,pager h exit
+#bind index,pager h quit
+#bind index,pager h exit
 bind index,pager n next-new-then-unread
 bind index "^" imap-fetch-mail
 
