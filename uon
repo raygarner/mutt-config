@@ -5,6 +5,7 @@ set folder = "imaps://psyrg4@nottingham.ac.uk@outlook.office365.com"
 set smtp_url = "smtp://psyrg4@nottingham.ac.uk@smtp.office365.com"
 
 set imap_pass=`pass psyrg4@nottingham.ac.uk`
+set smtp_pass=`pass psyrg4@nottingham.ac.uk`
 
 set from = "psyrg4@nottingham.ac.uk"
 
